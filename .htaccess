@@ -1,0 +1,76 @@
+# ============================================================
+# Busy B's Cleaning Service — .htaccess
+# Basic security headers, caching, and redirects
+# NOTE: .htaccess is for Apache servers (cPanel hosting).
+#       GitHub Pages uses its own server — most rules below
+#       won't apply on GitHub Pages but will on web hosting.
+# ============================================================
+
+Options -Indexes
+
+# ── Security Headers ────────────────────────────────────────
+<IfModule mod_headers.c>
+    Header always set X-Frame-Options "SAMEORIGIN"
+    Header always set X-Content-Type-Options "nosniff"
+    Header always set X-XSS-Protection "1; mode=block"
+    Header always set Referrer-Policy "strict-origin-when-cross-origin"
+    Header always set Permissions-Policy "geolocation=(), microphone=(), camera=()"
+    Header always set Content-Security-Policy "default-src 'self'; script-src 'self' 'unsafe-inline' https://fonts.googleapis.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://fonts.gstatic.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https:; connect-src 'self' https://formspree.io;"
+</IfModule>
+
+# ── HTTPS Redirect ───────────────────────────────────────────
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteCond %{HTTPS} off
+    RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+</IfModule>
+
+# ── Browser Caching ──────────────────────────────────────────
+<IfModule mod_expires.c>
+    ExpiresActive On
+
+    # HTML — short cache for fresh content
+    ExpiresByType text/html                     "access plus 1 hour"
+
+    # CSS and JS — longer cache with versioning
+    ExpiresByType text/css                      "access plus 1 month"
+    ExpiresByType application/javascript        "access plus 1 month"
+    ExpiresByType text/javascript               "access plus 1 month"
+
+    # Images
+    ExpiresByType image/jpeg                    "access plus 1 year"
+    ExpiresByType image/png                     "access plus 1 year"
+    ExpiresByType image/webp                    "access plus 1 year"
+    ExpiresByType image/svg+xml                 "access plus 1 year"
+    ExpiresByType image/gif                     "access plus 1 year"
+    ExpiresByType image/x-icon                  "access plus 1 year"
+
+    # Fonts
+    ExpiresByType font/woff2                    "access plus 1 year"
+    ExpiresByType font/woff                     "access plus 1 year"
+    ExpiresByType application/font-woff2        "access plus 1 year"
+
+    # XML / JSON
+    ExpiresByType application/xml               "access plus 1 day"
+    ExpiresByType text/xml                      "access plus 1 day"
+</IfModule>
+
+# ── Gzip Compression ─────────────────────────────────────────
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/html text/plain text/xml
+    AddOutputFilterByType DEFLATE text/css application/javascript
+    AddOutputFilterByType DEFLATE application/json application/xml
+    AddOutputFilterByType DEFLATE image/svg+xml
+</IfModule>
+
+# ── Custom 404 ───────────────────────────────────────────────
+ErrorDocument 404 /BBCS/404.html
+
+# ── Remove trailing slashes (optional) ──────────────────────
+# Uncomment if you want /about to work without .html extension
+# <IfModule mod_rewrite.c>
+#     RewriteEngine On
+#     RewriteCond %{REQUEST_FILENAME} !-d
+#     RewriteCond %{REQUEST_FILENAME}.html -f
+#     RewriteRule ^(.+?)/?$ $1.html [L]
+# </IfModule>
