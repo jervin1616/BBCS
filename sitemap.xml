@@ -3,7 +3,7 @@
 
   <!-- Homepage -->
   <url>
-    <loc>https://jervin1616.github.io/BBCS/</loc>
+    <loc>https://busybcleaningservice.com/</loc>
     <lastmod>2026-04-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -11,19 +11,19 @@
 
   <!-- Main Pages -->
   <url>
-    <loc>https://jervin1616.github.io/BBCS/about.html</loc>
+    <loc>https://busybcleaningservice.com/about.html</loc>
     <lastmod>2026-04-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jervin1616.github.io/BBCS/services.html</loc>
+    <loc>https://busybcleaningservice.com/services.html</loc>
     <lastmod>2026-04-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://jervin1616.github.io/BBCS/contact.html</loc>
+    <loc>https://busybcleaningservice.com/contact.html</loc>
     <lastmod>2026-04-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
@@ -31,37 +31,37 @@
 
   <!-- Service Pages -->
   <url>
-    <loc>https://jervin1616.github.io/BBCS/services/recurring-cleaning.html</loc>
+    <loc>https://busybcleaningservice.com/services/recurring-cleaning.html</loc>
     <lastmod>2026-04-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://jervin1616.github.io/BBCS/services/airbnb-cleaning.html</loc>
+    <loc>https://busybcleaningservice.com/services/airbnb-cleaning.html</loc>
     <lastmod>2026-04-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://jervin1616.github.io/BBCS/services/move-out-cleaning.html</loc>
+    <loc>https://busybcleaningservice.com/services/move-out-cleaning.html</loc>
     <lastmod>2026-04-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://jervin1616.github.io/BBCS/services/deep-cleaning.html</loc>
+    <loc>https://busybcleaningservice.com/services/deep-cleaning.html</loc>
     <lastmod>2026-04-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://jervin1616.github.io/BBCS/services/commercial-cleaning.html</loc>
+    <loc>https://busybcleaningservice.com/services/commercial-cleaning.html</loc>
     <lastmod>2026-04-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://jervin1616.github.io/BBCS/services/new-construction-cleaning.html</loc>
+    <loc>https://busybcleaningservice.com/services/new-construction-cleaning.html</loc>
     <lastmod>2026-04-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
@@ -69,31 +69,31 @@
 
   <!-- Location Pages -->
   <url>
-    <loc>https://jervin1616.github.io/BBCS/locations/wilmington.html</loc>
+    <loc>https://busybcleaningservice.com/locations/wilmington.html</loc>
     <lastmod>2026-04-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://jervin1616.github.io/BBCS/locations/leland.html</loc>
+    <loc>https://busybcleaningservice.com/locations/leland.html</loc>
     <lastmod>2026-04-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jervin1616.github.io/BBCS/locations/carolina-beach.html</loc>
+    <loc>https://busybcleaningservice.com/locations/carolina-beach.html</loc>
     <lastmod>2026-04-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jervin1616.github.io/BBCS/locations/hampstead.html</loc>
+    <loc>https://busybcleaningservice.com/locations/hampstead.html</loc>
     <lastmod>2026-04-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jervin1616.github.io/BBCS/locations/southport.html</loc>
+    <loc>https://busybcleaningservice.com/locations/southport.html</loc>
     <lastmod>2026-04-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -101,13 +101,13 @@
 
   <!-- Blog -->
   <url>
-    <loc>https://jervin1616.github.io/BBCS/blog/</loc>
+    <loc>https://busybcleaningservice.com/blog/</loc>
     <lastmod>2026-04-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://jervin1616.github.io/BBCS/blog/airbnb-cleaning-checklist-wilmington.html</loc>
+    <loc>https://busybcleaningservice.com/blog/airbnb-cleaning-checklist-wilmington.html</loc>
     <lastmod>2026-04-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
