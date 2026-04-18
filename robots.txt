@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://jervin1616.github.io/BBCS/sitemap.xml
+Sitemap: https://busybcleaningservice.com/sitemap.xml
